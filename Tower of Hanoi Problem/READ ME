@@ -1,0 +1,23 @@
+Answers to Requirment 1: 
+
+First Set of Questions: 
+
+Q1) The first recursive call will be towers(5,1,3). This is because the first integer means the number of disks, the second integer represents the tower which the disk is from and the third integer represents the tower which the disk will move towards. This will be the first recursive command as the disks will all be on the first tower, at the start of the game and they will move to different towers as the game progresses. The first disk, by default, usually moves to the third tower because its the smallest disk out of all the other disks, which will make it easier to move the larger disks throughout the game. The recursive call will be towers(4, 2, 1).
+
+Q2) There will be 5 calls before returning to initial recursive call.
+
+Q3) The actual move made by towers(5, 2, 3), will be moving from tower 2 to tower 3.
+
+Q4) The second recursive call will be towers(0, 3, 2) as illustrated in the code of the lab manual.
+
+Second Question: 
+Suppose that towers(8, 1, 2) is invoked. How many lines will be printed to stdout?
+255 lines will be printed
+
+Description of Lab:
+I had a little bit of difficulty understanding the first part of the lab which required me to answer the above questions. However, after some thinking and understanding the code, I was able to derive solutions for the answers, which I hope are correct.
+
+The second part of the lab was a bit more difficult as it entailed me trying to fix the bugs in the main program. I was able to complete the first 2 bugs which required an input of no arguments or an input argument which only required the number of discs. The program is able to give the correct responses. However, with the last bug, which was to show that only towers could move between tower 1, tower 2, tower 3, I was not able to do so. As in, I was not able to make the program show an error message when giving the wrong input when it came to 3 arguments. 
+
+The one mistake I made in this lab was starting too late, had I started early I think I would've been able to solve this problem but since it's nearing midnight I won't be able to. With future labs, I'll try to start earlier so I can get a better understanding of these labs which will hopefully aid me in completing these labs to the maximum.
+
